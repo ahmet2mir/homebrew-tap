@@ -2,16 +2,16 @@
 class Wildq < Formula
   desc "Command-line TOML/JSON/INI/YAML/XML/HCL processor using jq c bindings"
   homepage "https://github.com/ahmet2mir/wildq"
-  version "1.1.2"
+  version "1.1.4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/ahmet2mir/wildq/releases/download/v1.1.2/wildq-1.1.2-darwin-x86_64.tar.gz"
-    sha256 "3f01ad9f4b645027015e352f4c247999a948eea3c95a99e6f2b4458c425ff669"
+    url "https://github.com/ahmet2mir/wildq/releases/download/v1.1.4/wildq-1.1.4-darwin-x86_64.tar.gz"
+    sha256 "3914eeb6af56bd501b71ac64005418b499dbf9e30a15cb1bcacdaf618a435f60"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/ahmet2mir/wildq/releases/download/v1.1.2/wildq-1.1.2-linux-x86_64.tar.gz"
-      sha256 "9d7bd77de54421c54e48a4ae058ffa53e07b9aec3e6d1bdd12d20e7add1bcc6b"
+      url "https://github.com/ahmet2mir/wildq/releases/download/v1.1.4/wildq-1.1.4-linux-x86_64.tar.gz"
+      sha256 "d7958f9b2a5d4753a46a6d6adc6c11b5d6ad5539f92f1a0aea8069372f31e651"
     end
   end
 
